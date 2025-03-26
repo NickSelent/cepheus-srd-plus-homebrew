@@ -15,11 +15,17 @@ import { TradeCommerceComponent } from './Chapters/trade-commerce/trade-commerce
 import { ShipDesignConstructionComponent } from './Chapters/ship-design-construction/ship-design-construction.component';
 import { CommonVesselsComponent } from './Chapters/common-vessels/common-vessels.component';
 import { SpaceCombatComponent } from './Chapters/space-combat/space-combat.component';
+import { EnvironmentsComponent } from './Chapters/environments/environments.component';
+import { WorldsComponent } from './Chapters/worlds/worlds.component';
+import { PlanetaryComponent } from './Chapters/planetary/planetary.component';
+import { SocialComponent } from './Chapters/social/social.component';
+import { StarshipComponent } from './Chapters/starship/starship.component';
+import { RefereeingComponent } from './Chapters/refereeing/refereeing.component';
 
 export const routes: Routes = [
 
     {path: 'home', component: HomeComponent},
-    {path: 'adventures', component: AdventuresComponent},
+
     {path: 'introduction', component: IntroductionComponent},
     {path: 'character', component: CharacterCreationComponent},
     {path: 'aircraft', component: CommonAircraftComponent},
@@ -32,6 +38,14 @@ export const routes: Routes = [
     {path: 'shipdesign', component: ShipDesignConstructionComponent},
     {path: 'commonvessels', component: CommonVesselsComponent},
     {path: 'spacecombat', component: SpaceCombatComponent},
+
+    {path: 'environments', component: EnvironmentsComponent },    
+    {path: 'worlds', component: WorldsComponent },
+    {path: 'planetary', component: PlanetaryComponent },
+    {path: 'social', component: SocialComponent },
+    {path: 'starship', component: StarshipComponent },
+    {path: 'refereeing', component: RefereeingComponent },
+    {path: 'adventures', component: AdventuresComponent},
 
 
     {path: '**', component: HomeComponent}
