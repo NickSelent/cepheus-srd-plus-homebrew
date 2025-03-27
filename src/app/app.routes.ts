@@ -21,6 +21,12 @@ import { PlanetaryComponent } from './Chapters/planetary/planetary.component';
 import { SocialComponent } from './Chapters/social/social.component';
 import { StarshipComponent } from './Chapters/starship/starship.component';
 import { RefereeingComponent } from './Chapters/refereeing/refereeing.component';
+import { VehicledesignComponent } from './Chapters/vehicledesign/vehicledesign.component';
+import { CommonGravComponent } from './Chapters/common-grav/common-grav.component';
+import { CommongroundComponent } from './Chapters/commonground/commonground.component';
+import { CommonwatercraftComponent } from './Chapters/commonwatercraft/commonwatercraft.component';
+import { UncommonvehiclesComponent } from './Chapters/uncommonvehicles/uncommonvehicles.component';
+import { AppendixaComponent } from './Chapters/appendixa/appendixa.component';
 
 export const routes: Routes = [
 
@@ -28,7 +34,7 @@ export const routes: Routes = [
 
     {path: 'introduction', component: IntroductionComponent},
     {path: 'character', component: CharacterCreationComponent},
-    {path: 'aircraft', component: CommonAircraftComponent},
+    
     {path: 'skills', component: SkillsComponent},
     {path: 'psionics', component: PsionicsComponent},
     {path: 'equipment', component: EquipmentComponent},
@@ -46,6 +52,14 @@ export const routes: Routes = [
     {path: 'starship', component: StarshipComponent },
     {path: 'refereeing', component: RefereeingComponent },
     {path: 'adventures', component: AdventuresComponent},
+
+    {path: 'vehicledesign', component: VehicledesignComponent },    
+    {path: 'aircraft', component: CommonAircraftComponent},
+    {path: 'commongrav', component: CommonGravComponent },    
+    {path: 'commonground', component: CommongroundComponent},    
+    {path: 'commonwater', component: CommonwatercraftComponent},    
+    {path: 'uncommonvehicle', component: UncommonvehiclesComponent},    
+    {path: 'appendixa', component: AppendixaComponent},    
 
 
     {path: '**', component: HomeComponent}
