@@ -27,6 +27,9 @@ import { CommongroundComponent } from './Chapters/commonground/commonground.comp
 import { CommonwatercraftComponent } from './Chapters/commonwatercraft/commonwatercraft.component';
 import { UncommonvehiclesComponent } from './Chapters/uncommonvehicles/uncommonvehicles.component';
 import { AppendixaComponent } from './Chapters/appendixa/appendixa.component';
+import { VdsintroComponent } from './Chapters/vdsintro/vdsintro.component';
+import { LegalComponent } from './Chapters/legal/legal.component';
+import { SubsectorComponent } from './Tools/subsector/subsector.component';
 
 export const routes: Routes = [
 
@@ -53,6 +56,7 @@ export const routes: Routes = [
     {path: 'refereeing', component: RefereeingComponent },
     {path: 'adventures', component: AdventuresComponent},
 
+    {path: 'vdsintro', component: VdsintroComponent },    
     {path: 'vehicledesign', component: VehicledesignComponent },    
     {path: 'aircraft', component: CommonAircraftComponent},
     {path: 'commongrav', component: CommonGravComponent },    
@@ -61,6 +65,9 @@ export const routes: Routes = [
     {path: 'uncommonvehicle', component: UncommonvehiclesComponent},    
     {path: 'appendixa', component: AppendixaComponent},    
 
+    {path: 'legal', component: LegalComponent},   
+
+    {path: 'subsector', component: SubsectorComponent},   
 
     {path: '**', component: HomeComponent}
 ];
